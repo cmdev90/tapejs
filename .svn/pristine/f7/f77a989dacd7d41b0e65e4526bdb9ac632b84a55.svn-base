@@ -1,0 +1,208 @@
+(function (document) {
+    $(document).on('click', '[data-toggle="modal"]', function(){
+        var type = $(this).attr('data-type'),
+            id = $(this).attr('data-objective'),
+            obj = $(this).attr('data-id');
+
+        $('#add-' + type).attr('data-type', type);
+        $('#add-' + type).attr('data-add-to', '#objective_' + id + ' .'+type+'-set');
+        $('#add-' + type).attr('data-parent', id);
+
+        $('#add-' + type + ' input[type="hidden"]').val(obj);
+    });
+
+    function buildObjective (objective, id, objective_id) {
+        var heading = $('<div/>',{'class':'accordion-heading'});
+        heading.append($('<a/>',{'class':'accordion-toggle', 'data-toggle':'collapse', 'data-parent':'objectives', 'href':'#objective_' + id, 'html':objective}));
+
+        var group = $('<div/>',{'class':'accordion-group'});
+
+
+        var body = $('<div/>', {'id':'objective_' + id, 'class':'accordion-body collapse'});
+        var inner = $('<div/>', {'class':'accordion-inner'});
+        var table = $('<table/>', {'class':'table table-bordered'});
+
+        var row1 = $('<tr/>');
+
+        var row1_1 = $('<td/>',{'width':'150', 'html':'Indicators'});
+        row1_1.append($('<button/>', {'class':'btn btn-block add-indicator', 'html':'Add Indicator'}));
+        var row1_2 = $('<td/>',{'class':'indicator-set'});
+
+
+        row1.append(row1_1);
+        row1.append(row1_2)
+        table.append(row1);
+
+        var row2 = $('<tr/>');
+        var row2_1 = $('<td/>',{'width':'150', 'html':'Outcomes'});
+
+        row2_1.append($('<a/>', {'data-toggle':'modal', 'href':'#outcome-modal', 'class':'btn btn-primary btn-block', 'html':'Add Outcome', 'data-objective':id, 'data-type':'outcome', 'data-id':objective_id}));
+        var row2_2 = $('<td/>', {'class':'outcome-set'});
+
+        row2.append(row2_1);
+        row2.append(row2_2);
+        table.append(row2);
+
+        inner.append(table)
+        body.append(inner);
+        group.append(heading);
+        group.append(body);
+        $('#objectives').append(group);
+    }
+
+    var id = 0;
+
+
+    $('#add-objective').on('submit', function () {
+        var objective = $('textarea[name="objective"]').val(),
+            params = $(this).serialize(),
+            project = $('body').attr('data-project');
+
+        $.ajax({
+            type: 'post',
+            url : '/projects/' + project + '/objectives',
+            data: params,
+            success : function (res){
+                buildObjective(objective, 'objective'+res.insertId, res.insertId);
+            }
+        });
+
+        $('textarea[name="objective"]').val('');
+        return false;
+    });
+
+
+
+    function buildOutcome (outcome, id, selector, outcome_id) {
+        var heading = $('<div/>',{'class':'accordion-heading'});
+        heading.append($('<a/>',{'class':'accordion-toggle', 'data-toggle':'collapse', 'data-parent':'objectives', 'href':'#collapse_' + id, 'html':outcome}));
+
+        var group = $('<div/>',{'class':'accordion-group'});
+
+
+        var body = $('<div/>', {'id':'collapse_' + id, 'class':'accordion-body collapse'});
+        var inner = $('<div/>', {'class':'accordion-inner'});
+        var table = $('<table/>', {'class':'table table-bordered'});
+
+        var row1 = $('<tr/>');
+
+        var row1_1 = $('<td/>',{'width':'150', 'html':'Indicators'});
+        row1_1.append($('<button/>', {'class':'btn btn-block add-indicator', 'html':'Add Indicator'}));
+        var row1_2 = $('<td/>',{'class':'indicator-set'});
+
+
+        row1.append(row1_1);
+        row1.append(row1_2)
+        table.append(row1);
+
+        var row2 = $('<tr/>');
+        var row2_1 = $('<td/>',{'width':'150', 'html':'Output'});
+
+        row2_1.append($('<a/>', {'data-toggle':'modal', 'href':'#output-modal', 'class':'btn btn-primary btn-block', 'html':'Add Output', 'data-objective':id, 'data-type':'output', 'data-id':outcome_id}));
+        var row2_2 = $('<td/>', {'class':'output-set'});
+
+        row2.append(row2_1);
+        row2.append(row2_2);
+        table.append(row2);
+
+        inner.append(table)
+        body.append(inner);
+        group.append(heading);
+        group.append(body);
+        $(selector).append(group);
+    }
+
+    $('#add-outcome').on('submit', function () {
+        var outcome = $('textarea[name="outcome"]').val(),
+            selector = $(this).attr('data-add-to'),
+            params = $(this).serialize(),
+            project = $('body').attr('data-project');
+
+        console.log(params);
+
+        $.ajax({
+            type: 'post',
+            url : '/projects/' + project + '/outcomes',
+            data: params,
+            success : function (res){
+                console.log(res);
+                buildOutcome(outcome, 'outcome'+res.insertId, selector, res.insertId);
+            }
+        });
+
+        $('#outcome-modal').modal('hide');
+        //buildOutcome(outcome, id);
+
+        $('textarea[name="outcome"]').val('');
+        return false;
+    });
+
+    function buildOutput(output, id, selector, output_id) {
+
+
+        var heading = $('<div/>',{'class':'accordion-heading'});
+        heading.append($('<a/>',{'class':'accordion-toggle', 'data-toggle':'collapse', 'data-parent':'objectives', 'href':'#collapse_' + id, 'html':output}));
+
+        var group = $('<div/>',{'class':'accordion-group'});
+
+
+        var body = $('<div/>', {'id':'collapse_' + id, 'class':'accordion-body collapse'});
+        var inner = $('<div/>', {'class':'accordion-inner'});
+        var table = $('<table/>', {'class':'table table-bordered'});
+
+        var row1 = $('<tr/>');
+
+        var row1_1 = $('<td/>',{'width':'150', 'html':'Indicators'});
+        row1_1.append($('<button/>', {'class':'btn btn-block add-indicator', 'html':'Add Indicator'}));
+        var row1_2 = $('<td/>',{'class':'indicator-set'});
+
+
+        row1.append(row1_1);
+        row1.append(row1_2)
+        table.append(row1);
+
+        var row2 = $('<tr/>');
+        var row2_1 = $('<td/>',{'width':'150', 'html':'Activities'});
+
+        row2_1.append($('<a/>', {'data-toggle':'modal', 'href':'#', 'class':'btn btn-primary btn-block', 'html':'Add Activity', 'data-id':output_id}));
+        var row2_2 = $('<td/>', {'class':'activity-set'});
+
+        row2.append(row2_1);
+        row2.append(row2_2);
+        table.append(row2);
+
+        inner.append(table)
+        body.append(inner);
+        group.append(heading);
+        group.append(body);
+        $(selector + ' .output-set').append(group);
+
+
+        // console.log(selector);
+        // $(selector + ' .output-set').append($('<div/>',{'data-id':id, 'class':'span12', 'html':output}));
+    }
+
+    $('#add-output').on('submit', function () {
+        var output = $('textarea[name="output"]').val(),
+            selector = '#collapse_' + $(this).attr('data-parent'),
+            params = $(this).serialize(),
+            project = $('body').attr('data-project');
+
+        console.log(params);
+
+        $.ajax({
+            type: 'post',
+            url : '/projects/' + project + '/outputs',
+            data: params,
+            success : function (res){
+                console.log(res);
+                buildOutput(output, 'output'+res.insertId, selector, res.insertId);
+            }
+        });
+
+        $('#output-modal').modal('hide');
+
+        $('textarea[name="output"]').val('');
+        return false;
+    });
+}(document));

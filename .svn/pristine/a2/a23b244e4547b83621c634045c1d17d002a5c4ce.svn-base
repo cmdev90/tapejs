@@ -1,0 +1,171 @@
+(function (){
+    $.ajax({
+      type : 'get',
+      url : '/outputs/project/' + $('body').attr("data-project"),
+      success : function (response) {
+        console.log(response);
+        var arr = [];
+
+        $.each(response, function (index, value) {
+          arr.push({
+            title : value.name,
+            description : value.description,
+            key : value.id
+          });
+        });
+
+        initTree(arr);
+      },
+      error : function (err) {
+       console.log(err);
+      }
+    });
+
+    
+    var addNode = function (node, child) {
+        node.addChild(child);
+        // Remove the 'loading...' status:
+        node.setLazyNodeStatus(DTNodeStatus_Ok);
+    };
+
+
+    var appendActivity = function (activity, pre) {
+        var sdate = activity.start.split("T")[0].split("-");
+        var edate = activity.end.split("T")[0].split("-");
+
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+        var html =    '<div id="activity_'+activity.id+'" class="accordion-group">' +
+                        '<div class="accordion-heading">' +
+                          '<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse'+activity.id+'">' + activity.name + '</a>'+
+                        '</div>' +
+                        '<div id="collapse'+activity.id+'" class="accordion-body collapse">' +
+                          '<div class="accordion-inner">' +
+                            '<div class="pull-right btn-group">'+
+                              '<button class="btn btn-small"><i class="icon-plus"></i></button>'+
+                              '<button class="btn btn-small"><i class="icon-edit"></i></button>'+
+                              '<button class="btn btn-small delete" data-link="/activity/'+activity.id+'" data-element="#activity_'+activity.id+'"><i class="icon-remove"></i></button>'+
+                            '</div>'+
+                            '<p><b>Synopsis :</b> '+activity.synopsis+'</p>'+
+                            '<div class="row-fluid">'+
+                              '<div style="border-left: 5px solid #DDDDDD;height: 30px;padding-left: 20px;padding-top: 10px;margin-left: 20px;">'+
+                                '<div class="span4"> Start date : '+sdate[2]+' '+months[sdate[1]-1]+' '+sdate[0]+'</div>'+
+                                '<div class="span4">End date : '+edate[2]+' '+months[edate[1]-1]+' '+edate[0]+'</div>'+
+                                '<div class="span4">Budget Estimate : ~ $'+activity.estimate+'</div>'+
+                              '</div>'+
+                            '</div>'+
+                          '</div>' +
+                        '</div>' +
+                      '</div>';
+
+        //- if (pre)
+            $('#main').prepend(html);
+        //- else
+        //-   $('#activity_'+activity.parent).append(html);
+    };
+
+
+    var initTree = function (children) {
+
+        // Attach the dynatree widget to an existing <div id="tree"> element
+        // and pass the tree options as an argument to the dynatree() function:
+        $("#tree").dynatree({
+            onActivate: function (node) {
+                curr_node = node;
+
+                if (node.data.key === "add") {
+                    console.log(node.data);
+                    $('#postObject').attr('data-url', node.data.url + node.data.parent);
+                    $("#addObject").modal("show");
+                } else {
+                    $("#outputInfo").html('<h4>Output: '+node.data.title+'</h4><p>'+node.data.description+'</p><hr/><div><a href="#addActivity" id="addActivity_btn" role="button" data-toggle="modal" class="btn modal-btn add-activity pull-right" data-parent="'+node.data.key+'">Add Activity</a></div><h4>Activity List</h4><br/>');
+
+                    // A DynaTreeNode object is passed to the activation handler
+                    // Note: we also get this event, if persistence is on, and the page is reloaded.
+                    $.ajax({
+                        type : 'get',
+                        url : '/activities/output/' + node.data.key,
+                        success : function (response) {
+                          //- if(response.length){
+                            $("#main").html(""); // clear the screen
+                            for(var i=0; i<response.length; ++i) {
+                                appendActivity(response[i]);
+                                console.log(response[i]);
+                            }
+                        }
+                    });
+                }
+            },
+
+            onLazyRead: function(node){
+                $.ajax({
+                    url : '/activities/output/' + node.data.key,
+                    type : 'get',
+                    success : function (response) {
+                        var arr = [];
+
+                        $.each(response, function (index, value){ 
+                            arr.push({
+                                title : "Activity " + " - " + value.name,
+                                key : value.id,
+                            });
+                        });
+                        
+                        arr.push({
+                            key : "add",
+                            title : "Add Activity",
+                            parent : node.data.key,
+                        });
+
+                        addNode(node, arr);
+                    },
+                    error : function (err) {
+                        console.log(err);
+                    }
+                });
+            },
+
+            // Append root elements.
+            children : children,
+        });
+
+        tree = $("#tree").dynatree("getTree");
+    };
+
+    $(document).on('click', '.delete', function () {
+        var _this = this;
+        x = confirm("Are you sure you want to delete this Activity from the list?");
+
+        if (x) {
+          $.ajax({
+              type : 'delete',
+              url : $(this).attr('data-link'),
+              success : function (){
+                var element = $(_this).attr('data-element');
+                console.log(element);
+                $(element).remove();
+              }
+          });
+        }
+    });
+
+    $(document).on('click', '.add-activity', function (){
+        var id = $(this).attr('data-parent');
+        $('input[name="parent"]').val(id);
+        console.log(id);
+    });
+
+
+
+    $(document).on('submit', '#postActivity', function (){
+        toolkit.submit('#postActivity', function(response) {
+            $('#addActivity').modal('hide');
+            appendActivity(response);
+        });
+        return false;
+    });
+
+})();
+
+
+

@@ -1,0 +1,50 @@
+(function () {
+
+    $('#uploader').on('change', function(){
+        var formData = new FormData(this);
+        var xhr = new XMLHttpRequest();
+        var bar = new Bar('#');
+
+        xhr.open('POST', '/fileupload', true);
+        xhr.upload.onprogress = function(pe){
+            var progress = Math.ceil(((pe.loaded/pe.total) * 100) + '%');
+            bar.update(progress);
+        }
+
+        xhr.onloadend = function(pe) {
+            bar.update(100);
+        }
+
+        xhr.send(formData);
+                    
+        return false;
+    });
+
+    var Bar = (function (selctor) {
+        var bar;
+
+        function bar() {
+            var barDiv = $('div', {class : "progress"});
+
+            // keep a reference directly to the bar object so
+            // we chan operate on it later.
+            this.bar = $('div', {class : "bar", style : "width:0%"});
+
+            // Attach the barDiv and bar to the selector.
+            $(selctor).append(barDiv.append(this.bar));
+        }
+
+        bar.prototype.update = function (value) {
+            // Set the css width property of the bar
+            // to the new value.
+            bar.css('width', value);
+        }
+
+        return bar;
+    })();
+
+    // $('#upload-data').on('submit', function(){
+
+    // });
+
+}());

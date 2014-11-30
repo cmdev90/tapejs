@@ -1,0 +1,108 @@
+$(function () {
+    $(document).on('click','.upload-edit', function (){
+        alert("This feature is currently not avaliable for use.");
+    });
+    var attachFiles = function (file) {
+        var delete_url = file.url.replace('uploads','upload')
+        var html = '<tr id="file_'+file.id+'">'+
+                      '<td>'+file.originalName+'</td>'+
+                      '<td>'+file.type+'</td>'+
+                      '<td>'+
+                        '<a href="'+file.url+'" target="_blank" class="btn btn-link" title="Download file."><i class="icon-arrow-down"></i></a>'+
+                        '<button class="btn btn-link" title="Upload edit."><i class="icon-arrow-up"></i></button>'+
+                        '<button class="btn btn-link delete-file" data-link="'+delete_url+'" data-id="'+file.id+'" data-element="#file_'+file.id+'" title="Delete file."><i class="icon-remove"></i></button>'+
+                      '</td>'+
+                    '</tr>';
+
+        $('#file-details').prepend(html);
+    };
+
+    $(document).on('click', '.delete-file', function () {
+        var element = $(this).attr('data-element'),
+            id = $(this).attr('data-id'),
+            url = $(this).attr('data-link');
+
+        $.ajax({
+            type : 'delete',
+            url : url,
+            success : function (){
+                $.ajax({
+                    type : 'delete',
+                    url : '/file/' + id,
+                    success : function (){
+                        console.log(element);
+                        $(element).remove();
+                    }
+                });
+            }
+        });
+    });
+
+    var link = function (file) {
+        $.ajax({
+            url : '/project/file',
+            type : 'post',
+            data : {
+                id : $('body').attr('data-project'),
+                hash : file.hash
+            },
+            success : function (response) {
+                attachFiles(file);
+            }
+        });
+    };
+
+    $('#fileupload').fileupload({
+        dataType: 'json',
+        
+        add: function (e, data) {
+            var divElement = $('<div/>',{ style:'border-bottom:1px solid #DDDDDD;'}),
+                paragraph = $('<div/>',{style:'padding:10px;'}).text('Uploading...'),
+                progress = $('<progress/>',{max:100, style:'width: 98%;padding: 10px;margin: 0 10px 10px 10px;'}),
+                bitrate = $('<div/>',{style:'float:right;padding: 10px;'});
+
+            data.context = {};
+            data.projectid = $('body').attr('data-project');
+
+            divElement.append(bitrate);
+            divElement.append(paragraph);
+            divElement.append(progress);
+
+            data.context.p = paragraph;
+            data.context.progress = progress;
+            data.context.bitrate = bitrate;
+
+            divElement.prependTo('#progress');
+            data.submit();
+        },
+
+        done: function (e, data) {
+            $.each(data.result, function (index, file) {
+                var total = parseInt(data._progress.loaded/1024, 10);
+                //- console.log(file);
+                data.context.p.text('Upload Complete!');
+                $(data.context.p).append($('<div/>', {'html' : file.originalName}));
+                data.context.bitrate.text('Size : ' + total + 'kBytes');
+                $(data.context.progress).remove();
+                link(file);
+            });
+        },
+
+        progress: function (e, data) {
+            var progress = parseInt(data.loaded / data.total * 100, 10);
+            $(data.context.progress).attr('value', progress);
+            data.context.bitrate.text(data._progress.loaded/1024 +'/'+ data._progress.total/1024 +'kBytes');
+        },
+
+        progressall : function (e, data) {
+            var progress = parseInt(data.loaded / data.total * 100, 10);
+            $('#status').text('Uploading '+ progress +'%');
+            $('.file-progress .bar').css(
+                'width',
+                progress + '%'
+            );
+        }
+
+    });
+
+});

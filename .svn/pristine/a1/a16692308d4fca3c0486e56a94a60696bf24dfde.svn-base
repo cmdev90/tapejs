@@ -1,0 +1,172 @@
+// /*jslint unparam: true */
+// /*global window, jQuery, io */
+// (function () {
+//     'use strict';
+//     var root = window,
+//         pipe = {};
+
+//     // Attach pipe to the root of the document.
+//     root.pipe = pipe;
+
+//     pipe.attach = function (selector) {
+//         // Will attach a new element to the specified selector 
+//         // where the alerts will be shown.
+//         var options = {id : 'pipe', style : 'position:fixed; width:100%; height:100%; pointer-events:none; z-index:999999; padding-top:65px;'};
+
+//         // Set the new parent accessable to the 'message board'.
+//         this.parent = $('<div />', options).prependTo(selector);
+
+//         this.parent.append($('<div />', {id : 'pipe-left', style : 'float:left; width:350px; padding:10px;'}));
+//         this.parent.append($('<div />', {id : 'pipe-right', style : 'float:right; width:350px; padding:10px;'}));
+//         this.parent.append($('<div />', {id : 'pipe-bottom-left', style : 'position:fixed; bottom:0px; width:350px; padding:10px;'}));
+//         this.parent.append($('<div />', {id : 'pipe-bottom-right', style : 'position:fixed; bottom:0px; right:0px; width:350px; padding:10px;'}));
+
+//         return this.parent;
+//     };
+
+//     pipe.show = function (options) {
+//         var btnGroup, newBtn,
+//             title = options.title,
+//             message = options.message,
+//             closeable = options.closeable,
+//             timeout = options.timeout,
+//             position = options.position,
+//             image = options.image,
+//             buttons = options.buttons,
+//             type = options.type || 'info',
+//             // build the alert body
+//             notifBody = $('<div />', {'class' : 'alert alert-' + type, style : 'word-wrap:break-word; padding:8px 14px; display:none; pointer-events:all;'});
+
+//         if (closeable === 'undefined' || closeable !== false) {
+//             notifBody = $('<div />', {'class' : 'alert alert-' + type, style : 'word-wrap:break-word; display:none; pointer-events:all;'});
+//             notifBody.append($('<button />', {'type' : 'button', 'class' : 'close', 'data-dismiss' : 'alert', 'html' : '&times;'}));
+//         }
+
+//         if (image) {
+//             notifBody.append($('<img />', {src : image, style : 'width:80px; height:80px; margin: 0 15px 0 0; float:left;'}));
+//         }
+
+//         if (title) {
+//             notifBody.append($('<h5 />', {'html' : title}));
+//         }
+
+//         if (message) {
+//             notifBody.append($('<p />', {html : message}));
+//         }
+
+//         if (buttons) {
+//             btnGroup = $('<div />', {style : 'width:320px; height:40px;'});
+//             $.each(buttons, function (index, value) {
+//                 newBtn = $('<button />', {'class' : 'btn btn-' + value.type, html : value.title, style : 'float:right;'});
+//                 // add a href to the button on click command.
+//                 if (value.href) {
+//                     newBtn.click(function () {
+//                         // Close the alert
+//                         notifBody.fadeOut('fast', function () {
+//                             this.remove();
+//                             window.location = value.href;
+//                         });
+//                     });
+//                 } else if (typeof value.callback === 'function') { // add a custom response to mouse clicks.
+//                     newBtn.click(function () {
+//                         // Close the alert
+//                         notifBody.fadeOut('fast', function () {
+//                             this.remove();
+//                             // run callback function
+//                             value.callback();
+//                         });
+//                     });
+//                 } else { // else just close the nofitication on button click.
+//                     newBtn.click(function () {
+//                         // Close the alert
+//                         notifBody.fadeOut('fast', function () {
+//                             this.remove();
+//                         });
+//                     });
+//                 }
+
+
+//                 btnGroup.prepend(newBtn);
+//             });
+//             notifBody.append(btnGroup);
+//         }
+
+//         // Position the alert on the screen.
+//         switch (position) {
+//         case 'top-left':
+//             $('#pipe-left').append(notifBody);
+//             break;
+//         case 'top-right':
+//             $('#pipe-right').append(notifBody);
+//             break;
+//         case 'bottom-right':
+//             $('#pipe-bottom-right').append(notifBody);
+//             break;
+//         case 'bottom-left':
+//             $('#pipe-bottom-left').append(notifBody);
+//             break;
+//         default:
+//             $('#pipe-right').append(notifBody);
+//             break;
+//         }
+
+//         // Set fade out timers to remove the notification if no close 
+//         // button is present or a time out period was specified.
+//         if (timeout) {
+//             window.setTimeout(function () {
+//                 notifBody.fadeOut('fast', function () {
+//                     this.remove();
+//                 });
+//             }, timeout);
+//         } else if (closeable === false) {
+//             window.setTimeout(function () {
+//                 notifBody.fadeOut('fast', function () {
+//                     this.remove();
+//                 });
+//             }, 10000);
+//         }
+
+//         // Show the notification now that eveything is setup
+//         notifBody.fadeIn('fast');
+
+//     };
+
+
+//     /* 
+//      * Added support for node.js server support using
+//      * the socket.io libary for node.js
+//     */
+//     pipe.listen = function (url, identity) {
+//         if (io) {
+//             var socket = io.connect(url);
+
+//             socket.emit('identify',{data : identity});
+
+//             socket.on('notification', function (data) {
+//                 pipe.show(data);
+//             });
+//         } else {
+//             pipe.show({
+//                 title : 'Internal Application Error',
+//                 message : 'Socket.io support not found in this application. Please include socket.io in this web page to use this feature.',
+//                 closeable : true,
+//                 type : 'error',
+//                 buttons : [
+//                     {
+//                         title : 'View Docs',
+//                         type : 'danger',
+//                         href : 'http://p3o.zapto.org/install.html'
+//                     }
+//                 ]
+//             });
+//         }
+//     };
+
+// }());
+
+
+(function () {
+    // pipe.attach('body');
+    // pipe.listen(window.location.origin);
+    $('footer').hide();
+})();

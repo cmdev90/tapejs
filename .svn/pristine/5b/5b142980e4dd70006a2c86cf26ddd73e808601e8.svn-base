@@ -1,0 +1,80 @@
+// Browser Toolkit v0.0.1
+// ----------------------
+
+
+(function (window, jQuery) {
+    'use strict';
+
+    // attach jQuery to the symbol $    
+    var $ = jQuery,
+        toolkit = window.toolkit = {},    // attach toolkit to the window element
+        DEBUG = true;
+
+
+    var debug = toolkit.debug = function (string) {
+        if (DEBUG) {
+            window.console.log(string);
+        }
+    };
+
+
+    var submit = toolkit.submit = function (selector, onSuccess, onError) {
+        var target = $(selector).attr("data-url") || "/", //Get the forms target url. Defaults to root.
+            method = $(selector).attr("data-method") || "post"; // Get the submit method. Defaults to post.
+
+        // Print out debuggin info about target.
+        debug(target);
+
+        // Make ajax request.
+        $.ajax({
+            type : method,
+            url : target,
+            data : $(selector).serialize(),
+            success : onSuccess,
+            error : onError
+        });
+
+        // Reset the form element.
+        $(selector).trigger('reset');
+    };
+
+
+    var replaceAll = toolkit.replaceAll = function (search, replace, str) {
+        return str.replace(new RegExp('[' + search + ']', 'g'), replace);
+    };
+
+
+    var format = toolkit.format = {
+        // Checks the format of the input string and convert it
+        // to the opposite format.
+        money : function (value, cb) {
+            var str = "", i;
+            value = value.toString(); // convert number to string.
+
+            // If format is not comma seperated (i.e. convert 5000 => 5,000)
+            if (value.indexOf(",") === -1) {
+                var split = value.split(""), j = 0;
+
+                for (i = split.length - 1; i >= 0; i -= 1) {
+                    if (j < 3) {
+                        str = split[i] + str;
+                        j += 1;
+                    } else {
+                        str = split[i] + "," + str;
+                        j = 1;
+                    }
+                }
+            } else {
+                str = replaceAll(",", "", value);
+            }
+
+            if (typeof cb === "function") {
+                cb.call(str);
+            }
+
+            return str;
+            // poor support of this function - new Intl.NumberFormat().format(number)
+        }
+    };
+
+}(window, jQuery));

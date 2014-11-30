@@ -1,0 +1,54 @@
+#include <iostream>
+#include <string>
+ 
+using namespace std;
+const string key = "abcdefghijklmnopqrstuvwxyz";
+
+string rot13(string str) {
+   
+   string encryptedText= "";
+  
+   for (int i=0; i<str.length(); i++) 
+      encryptedText += key[(key.find(str[i]) + 13) % 26];
+   
+   return encryptedText;
+}
+
+string caesar(string str, int amt) {
+   
+   string encryptedText= "";
+  
+   for (int i=0; i<str.length(); i++) 
+      encryptedText += key[(key.find(str[i]) + amt) % 26];
+   
+   return encryptedText;
+}
+
+string decaesar(string str, int amt) {
+   
+   string decryptedText= "";
+  
+   for (int i=0; i<str.length(); i++){ 
+			if(key.find(str[i])-amt < 0) decryptedText += key[(key.find(str[i])-amt)+26];
+      else decryptedText += key[(key.find(str[i]) - amt) % 26];
+	 }
+   
+   return decryptedText;
+}
+
+int main(int argc, const char *argv[]) {
+	string rot13(string);	
+	string caesar(string, int);
+	string plainText;
+
+   cout<<"Give me a string to encrypt"<<endl;
+   cin>>plainText;
+	 cout<<plainText.length()<<endl;
+	
+	 cout<<"Encrypted Text is: "<<rot13(plainText)<<endl;
+	 cout<<"Decrypted Text is: "<<rot13(rot13(plainText))<<endl;
+	 cout<<"Encrypted Text is: "<<caesar(plainText, 10)<<endl;
+	 cout<<"Decrypted Text is: "<<decaesar(caesar(plainText, 10), 10)<<endl;
+   
+   return 0;
+}

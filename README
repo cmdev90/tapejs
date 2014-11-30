@@ -1,0 +1,7 @@
+Current Features
+
+Automatic loading of controller, model and route scripts
+
+Controller have access to all models
+
+routes can be set

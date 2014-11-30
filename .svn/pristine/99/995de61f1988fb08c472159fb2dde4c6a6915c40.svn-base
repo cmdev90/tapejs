@@ -1,0 +1,319 @@
+(function (document, window, $, Handlebars, toolkit) {
+    'use strict';
+
+    var id = $('body').attr("data-project"), curr_node,
+
+        source = $("#element-template").html(),
+        template = Handlebars.compile(source),
+
+        indicator_source = $("#indicator-template").html(),
+        indicator_template = Handlebars.compile(indicator_source),
+
+        activity_source = $('#activity-template').html(),
+        activity_template = Handlebars.compile(activity_source);
+
+
+    function addNode(node, child) {
+        node.addChild(child);
+        // Remove the 'loading...' status:
+        node.setLazyNodeStatus(0);
+    }
+
+    function nodeGetsActivity(node) {
+        $.ajax({
+            type : 'get',
+            url : '/activities/output/' + node.data.key,
+            success : function (response) {
+                var arr = [];
+
+                $.each(response, function (index, value) {
+                    toolkit.debug(index);
+                    arr.push({ title: "Activity - " + value.name, key: value.id,  url: '/activity/' + value.id });
+                });
+
+                arr.push({ title: "Add Activity", gets: "add_activity", parent: node.data.key, url: '/activity/project/' + id });
+                addNode(node, arr);
+            }
+        });
+    }
+
+    function nodeGets(node) {
+        $.ajax({
+            url : '/' + node.data.gets + '/' + node.data.key,
+            type : 'get',
+            success : function (response) {
+                var arr = [], title, lazy, add, gets;
+
+                switch (node.data.gets) {
+                case "outcome":
+                    title = "Outcome";
+                    lazy = true;
+                    gets = "output";
+
+                    add = { title: "Add Outcome", gets: "add", parent: node.data.key, url: '/outcome/objective/' };
+                    break;
+
+                case "output":
+                    title = "Output";
+                    lazy = true;
+                    gets = "activity";
+
+                    add = { title: "Add Output", gets: "add", parent: node.data.key, url: '/output/outcome/' };
+                    break;
+                default:
+                    window.alert("The server responded in an unexpected manner.\n\nPlease refresh the page.");
+                    break;
+                }
+
+                $.each(response, function (index, value) {
+                    toolkit.debug(index);
+                    arr.push({ title: title + " - " + value.name, key: value.id, gets: gets,  url: '/object/' + value.id, isLazy: lazy });
+                });
+
+                arr.push(add);
+                addNode(node, arr);
+            },
+            error : function (err) {
+                toolkit.debug(err);
+            }
+        });
+    }
+
+    function appendData(object) {
+        $("#main").html(template(object));
+    }
+
+    function appendActivity(activity) {
+        var sdate = activity.start.split("T")[0].split("-"),
+            edate = activity.end.split("T")[0].split("-"),
+            months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+        $('#main').html(activity_template({
+            id : activity.id,
+            title : activity.name,
+            synopsis: activity.synopsis,
+            source: activity.source,
+            start: sdate[2] + ' ' + months[sdate[1] - 1] + ' ' + sdate[0],
+            end: edate[2] + ' ' + months[edate[1] - 1] + ' ' + edate[0],
+            budget: activity.estimate
+        }));
+    }
+
+    function buildTree(children) {
+
+        children.push({
+            title : "Add Impact",
+            gets : "add",
+            parent : id,
+            url : '/objective/project/'
+        });
+
+        // Attach the dynatree widget to an existing <div id="tree"> element
+        // and pass the tree options as an argument to the dynatree() function:
+        $("#tree").dynatree({
+            onActivate: function (node) {
+                curr_node = node;
+                if (node.data.gets === "add") {
+                    $('#postObject').attr('data-url', node.data.url + node.data.parent);
+                    $("#addObject").modal("show");
+                } else if (node.data.gets === "add_activity") {
+                    toolkit.debug(node.data.url + node.data.parent);
+                    $('#postActivity').attr('data-url', node.data.url + node.data.parent);
+                    $('#postActivity input[name="parent"]').val(node.data.parent);
+                    $("#addActivity").modal("show");
+                } else {
+                    // A DynaTreeNode object is passed to the activation handler
+                    // Note: we also get this event, if persistence is on, and the page is reloaded.
+                    toolkit.debug(node.data.url);
+                    $.ajax({
+                        type : 'get',
+                        url : node.data.url,
+                        success : function (response) {
+                            // var str = JSON.stringify(response);
+                            // $("#main").html(str);
+                            toolkit.debug(response);
+                            if (response.type) {
+                                appendData(response);
+                            } else {
+                                appendActivity(response);
+                            }
+                        },
+                        error : function (err) {
+                            toolkit.debug(err);
+                        }
+                    });
+                }
+            },
+
+            onLazyRead: function (node) {
+                switch (node.data.gets) {
+                case "activity":
+                    nodeGetsActivity(node);
+                    break;
+                default:
+                    nodeGets(node);
+                    break;
+                }
+            },
+
+            // Append root elements.
+            children : children
+        });
+    }
+
+    $(document).on('submit', '#postActivity', function () {
+        toolkit.submit('#postActivity', function (response) {
+            $('#addActivity').modal('hide');
+            // appendActivity(response);
+            toolkit.debug(response);
+            var parent = curr_node.parent,
+                object = response,
+                // remove the currently selected node
+                // and save its atributes so it can be re-appended later
+                curr_node_data = { title: curr_node.data.title, gets: curr_node.data.gets, parent: curr_node.data.parent, url: curr_node.data.url };
+
+            curr_node.remove();
+            parent.addChild([{ title: "Activity - " + object.name, key: object.id, url: '/activity/' + object.id, gets: "none", isLazy: false }, curr_node_data]);
+
+        });
+        return false;
+    });
+
+    $(document).on('submit', '#postObject', function () {
+        toolkit.submit('#postObject', function (response) {
+            $('#addObject').modal('hide');
+
+            var select = ['', 'Impact', 'Outcome', 'Output', 'Project'],
+                parent = curr_node.parent,
+                object = response.object,
+                // remove the currently selected node
+                // and save its atributes so it can be re-appended later
+                curr_node_data = { title: curr_node.data.title, gets: curr_node.data.gets, parent: curr_node.data.parent, url: curr_node.data.url };
+
+            curr_node.remove();
+            switch (response.type) {
+            case "output":
+                parent.addChild([{ title: select[object.Object_TypeId] + " - " + object.name, key: object.id, url: '/object/' + object.id, gets: "activity", isLazy: true }, curr_node_data]);
+                break;
+
+            case "outcome":
+                parent.addChild([{ title: select[object.Object_TypeId] + " - " + object.name, key: object.id, url: '/object/' + object.id, gets: "output", isLazy: true }, curr_node_data]);
+                break;
+
+            case "objective":
+                parent.addChild([{ title: select[object.Object_TypeId] + " - " + object.name, key: object.id, url: '/object/' + object.id, gets: "outcome", isLazy: true }, curr_node_data]);
+                break;
+
+            default:
+                window.alert("Error 502\n\nThe server responded in an unexpected manner.\n\nPlease refresh the page.");
+                break;
+            }
+        });
+
+        return false;
+    });
+
+    $(document).on('click', '.delete-object', function () {
+        var x = window.confirm("Are you sure you want to delete this Activity from the list?");
+        if (x) {
+            $.ajax({
+                type : "delete",
+                url : $(this).attr('data-url'),
+                success : function (response) {
+                    toolkit.debug(response);
+                    curr_node.remove();
+                    $("#main").html("");
+                },
+                error : function (err) {
+                    toolkit.debug(err);
+                }
+            });
+        }
+    });
+
+    $(document).on('click', '.delete', function () {
+        var that = this,
+            x = window.confirm("Are you sure you want to delete this Activity from the list?");
+
+        if (x) {
+            $.ajax({
+                type : 'delete',
+                url : $(this).attr('data-link'),
+                success : function () {
+                    var element = $(that).attr('data-element');
+                    toolkit.debug(element);
+                    curr_node.remove();
+                    $('#main').empty();
+                }
+            });
+        }
+    });
+
+    // Attach tree actions.
+    $("#btnExpandAll").click(function () {
+        $("#tree").dynatree("getRoot").visit(function (node) {
+            node.expand(true);
+        });
+        return false;
+    });
+
+    $("#btnCollapseAll").click(function () {
+        $("#tree").dynatree("getRoot").visit(function (node) {
+            node.expand(false);
+        });
+        return false;
+    });
+
+    $(document).on('click', '.modal-btn', function () {
+        $('#postObject').attr('data-url', $(this).attr('data-url') + $(this).attr('data-parent'));
+    });
+
+
+    $(document).on('click', '.addIndicator', function () {
+        $('#postIndicator').attr('data-url', $(this).attr('data-link'));
+        $('#indicator').modal('show');
+    });
+
+    $(document).on('submit', '#postIndicator', function () {
+        $.ajax({
+            type : 'post',
+            url : $(this).attr('data-url'),
+            data : $(this).serialize(),
+            success : function (response) {
+                $('#indicator_accordian').append(indicator_template(response));
+                $('#indicator').modal('hide');
+            },
+            error : function (err) {
+                toolkit.debug(err);
+                window.alert("Ajax Error! Something is wrong with this service.\nOur monkeys are currently working hard to restore your service.");
+            }
+        });
+        return false;
+    });
+
+    // Initialize the tree.
+    // --------------------
+    $.ajax({
+        url : '/objective/' + id,
+        type : 'get',
+        success : function (response) {
+            var arr = [];
+            $.each(response, function (index, value) {
+                toolkit.debug(index);
+                arr.push({
+                    title : "Impact " + " - " + value.name,
+                    key : value.id,
+                    gets : "outcome",
+                    url: '/object/' + value.id,
+                    isLazy: true
+                });
+            });
+
+            buildTree(arr);
+        },
+        error : function (err) {
+            toolkit.debug(err);
+        }
+    });
+}(document, window, jQuery, Handlebars, toolkit));
+

@@ -1,0 +1,1841 @@
+Date,Name,Unit,Price,Used,Free,Billable,Charge
+2013-07-13,Frontend Instance Hours,Hour,0.08,7.17,28.00,0.00,0.00
+2013-07-13,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-13,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-13,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-13,Logs Storage,GByte-day,0.008,0.02,1.00,0.00,0.00
+2013-07-13,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-13,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-13,Code and Static File Storage,GByte-day,0.0043,0.14,1.00,0.00,0.00
+2013-07-13,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-13,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-07-13,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-13,Bandwidth Out,GByte,0.12,0.08,1.00,0.00,0.00
+2013-07-13,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-13,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-13,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-13,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-13,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-13,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-13,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-13,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-13,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-13,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-13,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-13,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-12,Frontend Instance Hours,Hour,0.08,4.75,28.00,0.00,0.00
+2013-07-12,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-12,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-12,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-12,Logs Storage,GByte-day,0.008,0.02,1.00,0.00,0.00
+2013-07-12,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-12,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-12,Code and Static File Storage,GByte-day,0.0043,0.14,1.00,0.00,0.00
+2013-07-12,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-12,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-07-12,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-12,Bandwidth Out,GByte,0.12,0.05,1.00,0.00,0.00
+2013-07-12,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-12,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-12,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-12,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-12,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-12,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-12,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-12,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-12,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-12,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-12,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-12,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-11,Frontend Instance Hours,Hour,0.08,8.63,28.00,0.00,0.00
+2013-07-11,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-11,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-11,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-11,Logs Storage,GByte-day,0.008,0.02,1.00,0.00,0.00
+2013-07-11,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-11,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-11,Code and Static File Storage,GByte-day,0.0043,0.12,1.00,0.00,0.00
+2013-07-11,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-11,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-07-11,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-11,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-07-11,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-11,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-11,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-11,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-11,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-11,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-11,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-11,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-11,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-11,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-11,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-11,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-10,Frontend Instance Hours,Hour,0.08,9.32,28.00,0.00,0.00
+2013-07-10,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-10,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-10,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-10,Logs Storage,GByte-day,0.008,0.02,1.00,0.00,0.00
+2013-07-10,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-10,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-10,Code and Static File Storage,GByte-day,0.0043,0.12,1.00,0.00,0.00
+2013-07-10,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-10,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-07-10,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-10,Bandwidth Out,GByte,0.12,0.03,1.00,0.00,0.00
+2013-07-10,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-10,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-10,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-10,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-10,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-10,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-10,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-10,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-10,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-10,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-10,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-10,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-09,Frontend Instance Hours,Hour,0.08,6.05,28.00,0.00,0.00
+2013-07-09,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-09,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-09,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-09,Logs Storage,GByte-day,0.008,0.02,1.00,0.00,0.00
+2013-07-09,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-09,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-09,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-07-09,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-09,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-07-09,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-09,Bandwidth Out,GByte,0.12,0.06,1.00,0.00,0.00
+2013-07-09,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-09,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-09,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-09,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-09,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-09,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-09,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-09,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-09,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-09,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-09,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-09,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-08,Frontend Instance Hours,Hour,0.08,7.52,28.00,0.00,0.00
+2013-07-08,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-08,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-08,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-08,Logs Storage,GByte-day,0.008,0.02,1.00,0.00,0.00
+2013-07-08,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-08,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-08,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-07-08,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-08,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-07-08,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-08,Bandwidth Out,GByte,0.12,0.15,1.00,0.00,0.00
+2013-07-08,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-08,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-08,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-08,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-08,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-08,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-08,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-08,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-08,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-08,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-08,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-08,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-07,Frontend Instance Hours,Hour,0.08,11.33,28.00,0.00,0.00
+2013-07-07,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-07,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-07,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-07,Logs Storage,GByte-day,0.008,0.02,1.00,0.00,0.00
+2013-07-07,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-07,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-07,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-07-07,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-07,Datastore Reads,Million Ops,0.60,0.02,0.05,0.00,0.00
+2013-07-07,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-07,Bandwidth Out,GByte,0.12,0.49,1.00,0.00,0.00
+2013-07-07,Emails,100 Recipients,0.01,0.01,1.00,0.00,0.00
+2013-07-07,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-07,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-07,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-07,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-07,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-07,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-07,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-07,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-07,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-07,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-07,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-06,Frontend Instance Hours,Hour,0.08,3.46,28.00,0.00,0.00
+2013-07-06,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-06,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-06,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-06,Logs Storage,GByte-day,0.008,0.02,1.00,0.00,0.00
+2013-07-06,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-06,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-06,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-07-06,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-06,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-07-06,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-06,Bandwidth Out,GByte,0.12,0.08,1.00,0.00,0.00
+2013-07-06,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-06,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-06,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-06,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-06,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-06,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-06,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-06,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-06,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-06,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-06,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-06,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-05,Frontend Instance Hours,Hour,0.08,4.06,28.00,0.00,0.00
+2013-07-05,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-05,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-05,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-05,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-07-05,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-05,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-05,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-07-05,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-05,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-07-05,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-05,Bandwidth Out,GByte,0.12,0.06,1.00,0.00,0.00
+2013-07-05,Emails,100 Recipients,0.01,0.01,1.00,0.00,0.00
+2013-07-05,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-05,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-05,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-05,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-05,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-05,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-05,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-05,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-05,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-05,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-05,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-04,Frontend Instance Hours,Hour,0.08,7.18,28.00,0.00,0.00
+2013-07-04,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-04,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-04,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-04,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-07-04,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-04,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-04,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-07-04,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-07-04,Datastore Reads,Million Ops,0.60,0.02,0.05,0.00,0.00
+2013-07-04,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-04,Bandwidth Out,GByte,0.12,0.11,1.00,0.00,0.00
+2013-07-04,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-04,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-04,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-04,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-04,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-04,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-04,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-04,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-04,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-04,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-04,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-04,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-03,Frontend Instance Hours,Hour,0.08,9.73,28.00,0.00,0.00
+2013-07-03,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-03,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-03,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-03,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-07-03,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-03,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-03,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-07-03,Datastore Writes,Million Ops,0.90,0.03,0.05,0.00,0.00
+2013-07-03,Datastore Reads,Million Ops,0.60,0.05,0.05,0.00,0.00
+2013-07-03,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-03,Bandwidth Out,GByte,0.12,0.13,1.00,0.00,0.00
+2013-07-03,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-03,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-03,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-03,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-03,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-03,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-03,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-03,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-03,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-03,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-03,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-03,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-02,Frontend Instance Hours,Hour,0.08,12.01,28.00,0.00,0.00
+2013-07-02,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-02,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-02,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-02,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-07-02,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-02,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-02,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-07-02,Datastore Writes,Million Ops,0.90,0.03,0.05,0.00,0.00
+2013-07-02,Datastore Reads,Million Ops,0.60,0.05,0.05,0.00,0.00
+2013-07-02,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-02,Bandwidth Out,GByte,0.12,0.31,1.00,0.00,0.00
+2013-07-02,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-02,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-02,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-02,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-02,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-02,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-02,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-02,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-02,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-02,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-02,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-02,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-07-01,Frontend Instance Hours,Hour,0.08,14.12,28.00,0.00,0.00
+2013-07-01,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-07-01,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-07-01,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-07-01,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-07-01,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-07-01,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-07-01,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-07-01,Datastore Writes,Million Ops,0.90,0.03,0.05,0.00,0.00
+2013-07-01,Datastore Reads,Million Ops,0.60,0.05,0.05,0.00,0.00
+2013-07-01,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-07-01,Bandwidth Out,GByte,0.12,0.43,1.00,0.00,0.00
+2013-07-01,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-07-01,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-07-01,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-07-01,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-07-01,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-07-01,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-07-01,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-07-01,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-07-01,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-07-01,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-07-01,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-07-01,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-30,Frontend Instance Hours,Hour,0.08,5.16,28.00,0.00,0.00
+2013-06-30,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-30,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-30,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-30,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-30,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-30,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-30,Code and Static File Storage,GByte-day,0.0043,0.15,1.00,0.00,0.00
+2013-06-30,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-30,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-30,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-30,Bandwidth Out,GByte,0.12,0.07,1.00,0.00,0.00
+2013-06-30,Emails,100 Recipients,0.01,0.01,1.00,0.00,0.00
+2013-06-30,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-30,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-30,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-30,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-30,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-30,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-30,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-30,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-30,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-30,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-30,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-29,Frontend Instance Hours,Hour,0.08,7.42,28.00,0.00,0.00
+2013-06-29,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-29,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-29,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-29,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-29,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-29,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-29,Code and Static File Storage,GByte-day,0.0043,0.19,1.00,0.00,0.00
+2013-06-29,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-29,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-29,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-29,Bandwidth Out,GByte,0.12,0.12,1.00,0.00,0.00
+2013-06-29,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-29,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-29,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-29,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-29,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-29,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-29,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-29,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-29,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-29,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-29,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-29,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-28,Frontend Instance Hours,Hour,0.08,2.03,28.00,0.00,0.00
+2013-06-28,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-28,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-28,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-28,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-28,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-28,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-28,Code and Static File Storage,GByte-day,0.0043,0.18,1.00,0.00,0.00
+2013-06-28,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-28,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-28,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-28,Bandwidth Out,GByte,0.12,0.03,1.00,0.00,0.00
+2013-06-28,Emails,100 Recipients,0.01,0.01,1.00,0.00,0.00
+2013-06-28,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-28,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-28,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-28,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-28,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-28,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-28,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-28,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-28,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-28,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-28,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-27,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-27,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-27,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-27,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-27,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-27,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-27,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-27,Code and Static File Storage,GByte-day,0.0043,0.12,1.00,0.00,0.00
+2013-06-27,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-27,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-27,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-27,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-06-27,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-27,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-27,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-27,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-27,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-27,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-27,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-27,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-27,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-27,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-27,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-27,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-26,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-26,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-26,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-26,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-26,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-26,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-26,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-26,Code and Static File Storage,GByte-day,0.0043,0.12,1.00,0.00,0.00
+2013-06-26,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-26,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-26,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-26,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-26,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-26,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-26,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-26,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-26,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-26,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-26,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-26,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-26,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-26,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-26,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-26,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-25,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-25,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-25,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-25,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-25,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-25,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-25,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-25,Code and Static File Storage,GByte-day,0.0043,0.12,1.00,0.00,0.00
+2013-06-25,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-25,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-25,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-25,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-06-25,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-25,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-25,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-25,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-25,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-25,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-25,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-25,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-25,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-25,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-25,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-25,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-24,Frontend Instance Hours,Hour,0.08,1.38,28.00,0.00,0.00
+2013-06-24,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-24,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-24,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-24,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-24,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-24,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-24,Code and Static File Storage,GByte-day,0.0043,0.12,1.00,0.00,0.00
+2013-06-24,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-24,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-24,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-24,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-24,Emails,100 Recipients,0.01,0.05,1.00,0.00,0.00
+2013-06-24,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-24,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-24,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-24,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-24,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-24,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-24,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-24,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-24,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-24,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-24,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-23,Frontend Instance Hours,Hour,0.08,1.06,28.00,0.00,0.00
+2013-06-23,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-23,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-23,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-23,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-23,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-23,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-23,Code and Static File Storage,GByte-day,0.0043,0.36,1.00,0.00,0.00
+2013-06-23,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-23,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-23,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-23,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-23,Emails,100 Recipients,0.01,0.01,1.00,0.00,0.00
+2013-06-23,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-23,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-23,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-23,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-23,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-23,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-23,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-23,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-23,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-23,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-23,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-22,Frontend Instance Hours,Hour,0.08,0.53,28.00,0.00,0.00
+2013-06-22,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-22,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-22,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-22,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-22,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-22,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-22,Code and Static File Storage,GByte-day,0.0043,0.18,1.00,0.00,0.00
+2013-06-22,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-22,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-22,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-22,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-22,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-22,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-22,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-22,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-22,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-22,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-22,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-22,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-22,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-22,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-22,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-22,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-21,Frontend Instance Hours,Hour,0.08,0.64,28.00,0.00,0.00
+2013-06-21,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-21,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-21,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-21,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-21,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-21,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-21,Code and Static File Storage,GByte-day,0.0043,0.36,1.00,0.00,0.00
+2013-06-21,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-21,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-21,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-21,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-21,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-21,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-21,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-21,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-21,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-21,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-21,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-21,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-21,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-21,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-21,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-21,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-20,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-20,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-20,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-20,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-20,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-20,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-20,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-20,Code and Static File Storage,GByte-day,0.0043,0.36,1.00,0.00,0.00
+2013-06-20,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-20,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-20,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-20,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-20,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-20,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-20,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-20,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-20,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-20,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-20,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-20,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-20,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-20,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-20,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-20,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-19,Frontend Instance Hours,Hour,0.08,0.52,28.00,0.00,0.00
+2013-06-19,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-19,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-19,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-19,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-19,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-19,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-19,Code and Static File Storage,GByte-day,0.0043,0.36,1.00,0.00,0.00
+2013-06-19,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-19,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-19,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-19,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-19,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-19,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-19,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-19,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-19,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-19,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-19,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-19,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-19,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-19,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-19,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-19,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-18,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-18,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-18,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-18,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-18,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-18,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-18,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-18,Code and Static File Storage,GByte-day,0.0043,0.24,1.00,0.00,0.00
+2013-06-18,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-18,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-18,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-18,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-18,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-18,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-18,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-18,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-18,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-18,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-18,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-18,Other Search Ops,10k Ops,0.10,0.00,0.10,0.00,0.00
+2013-06-18,Search Document Indexing,GByte,2.00,0.00,0.01,0.00,0.00
+2013-06-18,Search Document Storage,GByte-day,0.006,0.00,0.25,0.00,0.00
+2013-06-18,Complex Searches,10k Ops,0.60,0.00,0.01,0.00,0.00
+2013-06-18,Simple Searches,10k Ops,0.13,0.00,0.10,0.00,0.00
+2013-06-17,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-17,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-17,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-17,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-17,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-17,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-17,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-17,Code and Static File Storage,GByte-day,0.0043,0.24,1.00,0.00,0.00
+2013-06-17,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-17,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-17,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-17,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-17,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-17,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-17,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-17,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-17,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-17,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-17,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-16,Frontend Instance Hours,Hour,0.08,1.92,28.00,0.00,0.00
+2013-06-16,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-16,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-16,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-16,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-16,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-16,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-16,Code and Static File Storage,GByte-day,0.0043,0.24,1.00,0.00,0.00
+2013-06-16,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-16,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-16,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-16,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-16,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-16,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-16,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-16,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-16,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-16,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-16,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-15,Frontend Instance Hours,Hour,0.08,1.68,28.00,0.00,0.00
+2013-06-15,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-15,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-15,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-15,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-15,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-15,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-15,Code and Static File Storage,GByte-day,0.0043,0.30,1.00,0.00,0.00
+2013-06-15,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-15,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-15,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-15,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-15,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-15,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-15,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-15,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-15,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-15,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-15,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-14,Frontend Instance Hours,Hour,0.08,2.51,28.00,0.00,0.00
+2013-06-14,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-14,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-14,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-14,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-14,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-14,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-14,Code and Static File Storage,GByte-day,0.0043,0.29,1.00,0.00,0.00
+2013-06-14,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-14,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-14,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-14,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-14,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-14,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-14,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-14,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-14,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-14,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-14,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-13,Frontend Instance Hours,Hour,0.08,0.26,28.00,0.00,0.00
+2013-06-13,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-13,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-13,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-13,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-13,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-13,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-13,Code and Static File Storage,GByte-day,0.0043,0.29,1.00,0.00,0.00
+2013-06-13,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-13,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-13,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-13,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-13,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-13,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-13,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-13,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-13,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-13,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-13,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-12,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-12,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-12,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-12,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-12,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-12,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-12,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-12,Code and Static File Storage,GByte-day,0.0043,0.29,1.00,0.00,0.00
+2013-06-12,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-12,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-12,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-12,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-06-12,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-12,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-12,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-12,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-12,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-12,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-12,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-11,Frontend Instance Hours,Hour,0.08,2.48,28.00,0.00,0.00
+2013-06-11,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-11,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-11,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-11,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-11,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-11,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-11,Code and Static File Storage,GByte-day,0.0043,0.29,1.00,0.00,0.00
+2013-06-11,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-11,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-11,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-11,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-11,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-11,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-11,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-11,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-11,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-11,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-11,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-10,Frontend Instance Hours,Hour,0.08,6.56,28.00,0.00,0.00
+2013-06-10,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-10,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-10,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-10,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-10,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-10,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-10,Code and Static File Storage,GByte-day,0.0043,0.17,1.00,0.00,0.00
+2013-06-10,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-10,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-10,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-10,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-10,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-10,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-10,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-10,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-10,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-10,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-10,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-09,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-09,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-09,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-09,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-09,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-09,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-09,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-09,Code and Static File Storage,GByte-day,0.0043,0.17,1.00,0.00,0.00
+2013-06-09,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-09,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-09,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-09,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-06-09,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-09,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-09,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-09,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-09,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-09,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-09,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-08,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-08,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-08,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-08,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-08,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-08,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-08,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-08,Code and Static File Storage,GByte-day,0.0043,0.17,1.00,0.00,0.00
+2013-06-08,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-08,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-08,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-08,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-06-08,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-08,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-08,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-08,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-08,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-08,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-08,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-07,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-06-07,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-07,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-07,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-07,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-07,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-07,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-07,Code and Static File Storage,GByte-day,0.0043,0.17,1.00,0.00,0.00
+2013-06-07,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-06-07,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-06-07,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-07,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-07,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-07,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-07,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-07,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-07,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-07,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-07,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-06,Frontend Instance Hours,Hour,0.08,4.22,28.00,0.00,0.00
+2013-06-06,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-06,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-06,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-06,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-06,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-06,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-06,Code and Static File Storage,GByte-day,0.0043,0.17,1.00,0.00,0.00
+2013-06-06,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-06,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-06,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-06,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-06,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-06,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-06,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-06,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-06,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-06,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-06,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-05,Frontend Instance Hours,Hour,0.08,4.32,28.00,0.00,0.00
+2013-06-05,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-05,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-05,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-05,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-05,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-05,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-05,Code and Static File Storage,GByte-day,0.0043,0.17,1.00,0.00,0.00
+2013-06-05,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-05,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-05,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-05,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-05,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-05,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-05,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-05,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-05,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-05,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-05,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-04,Frontend Instance Hours,Hour,0.08,5.46,28.00,0.00,0.00
+2013-06-04,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-04,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-04,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-04,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-04,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-04,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-04,Code and Static File Storage,GByte-day,0.0043,0.17,1.00,0.00,0.00
+2013-06-04,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-04,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-04,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-04,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-04,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-04,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-04,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-04,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-04,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-04,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-04,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-03,Frontend Instance Hours,Hour,0.08,3.56,28.00,0.00,0.00
+2013-06-03,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-03,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-03,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-03,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-03,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-03,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-03,Code and Static File Storage,GByte-day,0.0043,0.17,1.00,0.00,0.00
+2013-06-03,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-03,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-03,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-03,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-03,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-03,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-03,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-03,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-03,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-03,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-03,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-02,Frontend Instance Hours,Hour,0.08,3.33,28.00,0.00,0.00
+2013-06-02,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-02,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-02,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-02,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-02,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-02,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-02,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-06-02,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-02,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-02,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-02,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-02,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-02,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-02,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-02,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-02,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-02,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-02,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-06-01,Frontend Instance Hours,Hour,0.08,0.96,28.00,0.00,0.00
+2013-06-01,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-06-01,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-06-01,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-06-01,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-06-01,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-06-01,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-06-01,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-06-01,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-06-01,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-06-01,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-06-01,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-06-01,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-06-01,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-06-01,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-06-01,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-06-01,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-06-01,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-06-01,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-31,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-31,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-31,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-31,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-31,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-31,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-31,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-31,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-31,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-05-31,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-05-31,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-31,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-05-31,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-31,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-31,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-31,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-31,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-31,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-31,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-30,Frontend Instance Hours,Hour,0.08,5.11,28.00,0.00,0.00
+2013-05-30,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-30,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-30,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-30,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-30,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-30,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-30,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-30,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-05-30,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-05-30,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-30,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-30,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-30,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-30,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-30,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-30,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-30,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-30,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-29,Frontend Instance Hours,Hour,0.08,0.26,28.00,0.00,0.00
+2013-05-29,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-29,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-29,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-29,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-29,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-29,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-29,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-29,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-05-29,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-05-29,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-29,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-29,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-29,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-29,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-29,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-29,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-29,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-29,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-28,Frontend Instance Hours,Hour,0.08,0.81,28.00,0.00,0.00
+2013-05-28,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-28,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-28,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-28,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-28,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-28,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-28,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-28,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-05-28,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-05-28,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-28,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-28,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-28,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-28,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-28,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-28,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-28,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-28,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-27,Frontend Instance Hours,Hour,0.08,5.49,28.00,0.00,0.00
+2013-05-27,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-27,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-27,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-27,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-27,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-27,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-27,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-27,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-05-27,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-05-27,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-27,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-27,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-27,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-27,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-27,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-27,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-27,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-27,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-26,Frontend Instance Hours,Hour,0.08,1.49,28.00,0.00,0.00
+2013-05-26,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-26,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-26,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-26,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-26,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-26,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-26,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-26,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-05-26,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-05-26,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-26,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-26,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-26,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-26,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-26,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-26,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-26,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-26,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-25,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-25,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-25,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-25,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-25,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-25,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-25,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-25,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-25,Datastore Writes,Million Ops,0.90,0.00,0.05,0.00,0.00
+2013-05-25,Datastore Reads,Million Ops,0.60,0.00,0.05,0.00,0.00
+2013-05-25,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-25,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-05-25,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-25,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-25,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-25,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-25,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-25,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-25,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-23,Frontend Instance Hours,Hour,0.08,4.47,28.00,0.00,0.00
+2013-05-23,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-23,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-23,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-23,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-23,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-23,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-23,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-23,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-05-23,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-05-23,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-23,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-23,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-23,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-23,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-23,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-23,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-23,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-23,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-24,Frontend Instance Hours,Hour,0.08,0.86,28.00,0.00,0.00
+2013-05-24,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-24,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-24,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-24,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-24,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-24,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-24,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-24,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-05-24,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-05-24,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-24,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-24,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-24,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-24,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-24,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-24,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-24,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-24,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-23,Frontend Instance Hours,Hour,0.08,4.47,28.00,0.00,0.00
+2013-05-23,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-23,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-23,Datastore Storage,GByte-day,0.006,0.01,1.00,0.00,0.00
+2013-05-23,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-23,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-23,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-23,Code and Static File Storage,GByte-day,0.0043,0.16,1.00,0.00,0.00
+2013-05-23,Datastore Writes,Million Ops,0.90,0.01,0.05,0.00,0.00
+2013-05-23,Datastore Reads,Million Ops,0.60,0.01,0.05,0.00,0.00
+2013-05-23,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-23,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-23,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-23,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-23,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-23,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-23,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-23,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-23,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-22,Frontend Instance Hours,Hour,0.08,2.92,28.00,0.00,0.00
+2013-05-22,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-22,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-22,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-22,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-22,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-22,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-22,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-22,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-22,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-05-22,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-22,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-22,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-22,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-22,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-22,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-22,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-22,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-22,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-21,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-21,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-21,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-21,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-21,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-21,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-21,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-21,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-21,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-21,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-21,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-21,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-05-21,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-21,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-21,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-21,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-21,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-21,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-21,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-20,Frontend Instance Hours,Hour,0.08,0.27,28.00,0.00,0.00
+2013-05-20,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-20,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-20,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-20,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-20,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-20,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-20,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-20,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-20,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-05-20,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-20,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-20,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-20,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-20,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-20,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-20,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-20,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-20,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-19,Frontend Instance Hours,Hour,0.08,3.01,28.00,0.00,0.00
+2013-05-19,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-19,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-19,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-19,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-19,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-19,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-19,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-19,Datastore Writes,Million Ops,1.00,0.01,0.05,0.00,0.00
+2013-05-19,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-05-19,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-19,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-19,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-19,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-19,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-19,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-19,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-19,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-19,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-18,Frontend Instance Hours,Hour,0.08,0.26,28.00,0.00,0.00
+2013-05-18,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-18,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-18,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-18,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-18,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-18,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-18,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-18,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-18,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-18,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-18,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-18,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-18,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-18,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-18,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-18,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-18,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-18,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-17,Frontend Instance Hours,Hour,0.08,2.03,28.00,0.00,0.00
+2013-05-17,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-17,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-17,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-17,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-17,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-17,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-17,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-17,Datastore Writes,Million Ops,1.00,0.01,0.05,0.00,0.00
+2013-05-17,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-05-17,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-17,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-17,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-17,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-17,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-17,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-17,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-17,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-17,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-16,Frontend Instance Hours,Hour,0.08,3.31,28.00,0.00,0.00
+2013-05-16,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-16,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-16,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-16,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-16,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-16,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-16,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-16,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-16,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-05-16,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-16,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-16,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-16,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-16,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-16,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-16,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-16,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-16,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-15,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-15,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-15,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-15,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-15,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-15,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-15,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-15,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-15,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-15,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-15,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-15,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-15,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-15,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-15,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-15,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-15,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-15,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-15,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-14,Frontend Instance Hours,Hour,0.08,0.38,28.00,0.00,0.00
+2013-05-14,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-14,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-14,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-14,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-14,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-14,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-14,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-14,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-14,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-05-14,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-14,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-14,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-14,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-14,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-14,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-14,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-14,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-14,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-13,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-13,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-13,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-13,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-13,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-13,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-13,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-13,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-13,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-13,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-13,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-13,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-13,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-13,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-13,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-13,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-13,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-13,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-13,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-12,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-12,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-12,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-12,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-12,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-12,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-12,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-12,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-12,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-12,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-12,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-12,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-05-12,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-12,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-12,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-12,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-12,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-12,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-12,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-11,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-11,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-11,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-11,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-11,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-11,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-11,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-11,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-11,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-11,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-11,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-11,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-11,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-11,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-11,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-11,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-11,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-11,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-11,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-10,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-10,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-10,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-10,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-10,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-10,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-10,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-10,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-10,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-10,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-10,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-10,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-05-10,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-10,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-10,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-10,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-10,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-10,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-10,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-09,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-09,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-09,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-09,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-09,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-09,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-09,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-09,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-09,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-09,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-09,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-09,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-09,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-09,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-09,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-09,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-09,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-09,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-09,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-08,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-08,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-08,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-08,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-08,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-08,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-08,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-08,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-08,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-08,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-08,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-08,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-05-08,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-08,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-08,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-08,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-08,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-08,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-08,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-07,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-07,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-07,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-07,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-07,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-07,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-07,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-07,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-07,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-07,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-07,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-07,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-07,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-07,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-07,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-07,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-07,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-07,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-07,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-06,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-06,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-06,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-06,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-06,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-06,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-06,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-06,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-06,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-06,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-06,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-06,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-06,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-06,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-06,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-06,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-06,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-06,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-06,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-05,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-05,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-05,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-05,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-05,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-05,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-05,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-05,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-05,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-05,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-05,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-05,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-05-05,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-05,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-05,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-05,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-05,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-05,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-05,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-04,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-04,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-04,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-04,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-04,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-04,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-04,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-04,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-04,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-04,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-04,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-04,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-04,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-04,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-04,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-04,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-04,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-04,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-04,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-03,Frontend Instance Hours,Hour,0.08,0.26,28.00,0.00,0.00
+2013-05-03,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-03,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-03,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-03,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-03,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-03,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-03,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-03,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-03,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-05-03,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-03,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-03,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-03,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-03,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-03,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-03,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-03,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-03,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-02,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-02,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-02,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-02,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-02,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-02,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-02,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-02,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-02,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-02,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-02,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-02,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-05-02,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-02,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-02,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-02,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-02,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-02,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-02,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-05-01,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-05-01,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-05-01,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-05-01,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-01,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-05-01,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-05-01,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-05-01,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-05-01,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-05-01,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-05-01,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-05-01,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-05-01,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-05-01,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-05-01,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-05-01,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-05-01,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-05-01,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-05-01,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-30,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-30,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-30,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-30,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-30,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-30,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-30,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-30,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-30,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-30,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-30,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-30,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-04-30,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-30,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-30,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-30,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-30,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-30,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-30,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-29,Frontend Instance Hours,Hour,0.08,0.68,28.00,0.00,0.00
+2013-04-29,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-29,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-29,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-29,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-29,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-29,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-29,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-29,Datastore Writes,Million Ops,1.00,0.01,0.05,0.00,0.00
+2013-04-29,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-04-29,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-29,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-04-29,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-29,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-29,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-29,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-29,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-29,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-29,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-28,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-28,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-28,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-28,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-28,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-28,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-28,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-28,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-28,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-28,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-28,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-28,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-04-28,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-28,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-28,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-28,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-28,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-28,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-28,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-27,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-27,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-27,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-27,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-27,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-27,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-27,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-27,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-27,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-27,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-27,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-27,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-04-27,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-27,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-27,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-27,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-27,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-27,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-27,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-26,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-26,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-26,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-26,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-26,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-26,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-26,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-26,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-26,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-26,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-26,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-26,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-04-26,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-26,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-26,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-26,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-26,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-26,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-26,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-25,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-25,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-25,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-25,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-25,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-25,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-25,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-25,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-25,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-25,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-25,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-25,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-04-25,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-25,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-25,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-25,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-25,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-25,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-25,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-24,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-24,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-24,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-24,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-24,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-24,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-24,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-24,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-24,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-24,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-24,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-24,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-04-24,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-24,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-24,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-24,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-24,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-24,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-24,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-23,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-23,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-23,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-23,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-23,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-23,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-23,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-23,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-23,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-23,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-23,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-23,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-04-23,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-23,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-23,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-23,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-23,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-23,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-23,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-22,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-22,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-22,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-22,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-22,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-22,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-22,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-22,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-22,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-22,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-22,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-22,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-04-22,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-22,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-22,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-22,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-22,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-22,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-22,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-21,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-21,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-21,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-21,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-21,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-21,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-21,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-21,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-21,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-21,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-21,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-21,Bandwidth Out,GByte,0.12,0.00,1.00,0.00,0.00
+2013-04-21,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-21,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-21,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-21,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-21,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-21,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-21,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-20,Frontend Instance Hours,Hour,0.08,0.28,28.00,0.00,0.00
+2013-04-20,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-20,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-20,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-20,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-20,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-20,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-20,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-20,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-20,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-04-20,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-20,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-04-20,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-20,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-20,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-20,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-20,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-20,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-20,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-19,Frontend Instance Hours,Hour,0.08,0.00,28.00,0.00,0.00
+2013-04-19,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-19,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-19,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-19,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-19,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-19,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-19,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-19,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-19,Datastore Reads,Million Ops,0.70,0.00,0.05,0.00,0.00
+2013-04-19,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-19,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-04-19,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-19,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-19,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-19,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-19,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-19,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-19,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-18,Frontend Instance Hours,Hour,0.08,0.26,28.00,0.00,0.00
+2013-04-18,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-18,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-18,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-18,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-18,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-18,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-18,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-18,Datastore Writes,Million Ops,1.00,0.00,0.05,0.00,0.00
+2013-04-18,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-04-18,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-18,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-04-18,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-18,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-18,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-18,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-18,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-18,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-18,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-17,Frontend Instance Hours,Hour,0.08,2.91,28.00,0.00,0.00
+2013-04-17,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-17,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-17,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-17,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-17,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-17,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-17,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-17,Datastore Writes,Million Ops,1.00,0.01,0.05,0.00,0.00
+2013-04-17,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-04-17,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-17,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-04-17,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-17,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-17,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-17,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-17,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-17,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-17,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00
+2013-04-16,Frontend Instance Hours,Hour,0.08,5.55,28.00,0.00,0.00
+2013-04-16,Discounted Instance Hour,Hour,0.05,0.00,0.00,0.00,0.00
+2013-04-16,Backend Instance Hours,Hour,0.08,0.00,9.00,0.00,0.00
+2013-04-16,Datastore Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-16,Logs Storage,GByte-day,0.008,0.01,1.00,0.00,0.00
+2013-04-16,Taskqueue Storage,GByte-day,0.008,0.00,0.49,0.00,0.00
+2013-04-16,Blobstore Storage,GByte-day,0.0043,0.00,5.00,0.00,0.00
+2013-04-16,Code and Static File Storage,GByte-day,0.0043,0.03,1.00,0.00,0.00
+2013-04-16,Datastore Writes,Million Ops,1.00,0.01,0.05,0.00,0.00
+2013-04-16,Datastore Reads,Million Ops,0.70,0.01,0.05,0.00,0.00
+2013-04-16,Small Datastore Operations,Million Ops,0.10,0.00,0.05,0.00,0.00
+2013-04-16,Bandwidth Out,GByte,0.12,0.01,1.00,0.00,0.00
+2013-04-16,Emails,100 Recipients,0.01,0.00,1.00,0.00,0.00
+2013-04-16,XMPP Stanzas,100K Stanzas,0.10,0.00,0.10,0.00,0.00
+2013-04-16,Opened Channels,100 Opens,0.01,0.00,1.00,0.00,0.00
+2013-04-16,Logs Read Bandwidth,GByte,0.12,0.00,0.10,0.00,0.00
+2013-04-16,PageSpeed Out Bandwidth,GByte,0.39,0.00,0.00,0.00,0.00
+2013-04-16,SSL VIPs,Day,1.30,0.00,0.00,0.00,0.00
+2013-04-16,SSL SNI Certificates,Day,0.06,0.00,0.00,0.00,0.00

@@ -1,0 +1,1 @@
+(function(){$(document).on('click','.project',function(){window.location = $(this).attr('data-url');});}());
